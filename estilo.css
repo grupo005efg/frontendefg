@@ -18,3 +18,7 @@ header {
     background-color: darkgray;
     padding: 20px;
 }
+nav ul{ 
+    list-style-type:nome 
+    padding: 0;
+}
