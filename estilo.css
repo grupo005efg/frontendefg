@@ -22,3 +22,32 @@ nav ul{
     list-style-type:nome 
     padding: 0;
 }
+article{
+    float: left;
+    padding: 20px;
+    background-color:cyan;
+    height: 300px;  
+} 
+
+/*after = depois */
+section: :after [
+    content:"";
+    display: table;
+    clear: both; 
+]
+
+footer{
+    background-color:aquamarine;
+    padding: 10px;
+    text-aling: center;
+    color:black
+}
+
+/* @media aplicar estilos especificos,para quanto os 
+estilo serão aplicados quando a largura da tela for no maximo 600px  */
+@media (max-width: 600px){
+    nav, article{
+        width: 100%;
+        heigth: auto;
+    }
+}
